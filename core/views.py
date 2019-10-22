@@ -3,7 +3,7 @@ from ussd.core import UssdView, UssdRequest,_customer_journey_files
 
 class USSDGateway(UssdView):
     path = os.path.dirname(os.path.abspath(__file__))
-    customer_journey_conf = path + "/equity_bank_kenya_customer_journey.yml"
+    customer_journey_conf = path + "/github-repo-journey.yml"
 
     def post(self, req):
         session_id = req.data.get('session_id')
