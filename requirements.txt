@@ -1,5 +1,5 @@
 django==2.2b1
-djangorestframework==3.9.2
+djangorestframework==3.11.2
 PyStaticConfiguration==0.10.2
 structlog==16.1.0
 jinja2==2.9.4
