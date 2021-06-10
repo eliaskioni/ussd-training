@@ -1,4 +1,4 @@
-django==2.2b1
+django==2.2.24
 djangorestframework==3.9.2
 PyStaticConfiguration==0.10.2
 structlog==16.1.0
